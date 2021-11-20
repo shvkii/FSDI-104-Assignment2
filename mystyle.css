@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dekko:wght@400;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    }
+    body{
+        background-color:khaki;
+        font-family:'Dekko'
+    }
+    img{
+        max-width:100%;
+    }
+    a{
+        text-decoration: none;
+    }
+    /*utilities*/
+    
+    /*menu*/
+    nav.menu{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color:burlywood;
+        height:50px;
+    }
+    img.logo{
+        height:40px;
+    }
+    .icon-home{
+       text-transform: uppercase;  
+       font-size: 13px;
+       font-weight: 900px;
+       letter-spacing: 3px;
+       color:black;
+       margin-right:20px;
+    }
+    .icon-services{
+        text-transform: uppercase;  
+        font-size: 13px;
+        font-weight: 900px;
+        letter-spacing: 3px;
+        color:black;
+        margin-right:20px;
+    }  
+    .icon-register{
+        text-transform: uppercase;  
+        font-size: 13px;
+        font-weight: 900px;
+        letter-spacing: 3px;
+        color:black;
+        margin-right:20px;
+    }
+    .fa-angle-double-down{
+        margin-right:20px;
+    }
+    
+    header{
+        justify-content:space-between;
+        align-items: center;
+        background-color:burlywood;
+        height:50px;
+        height:230px;
+        font-size:25px;
+        font-weight: 900px;
+        color:black;
+        text-align:center;
+    }
+    header h1{
+        text-transform: uppercase;
+        font-size: 40px;
+        letter-spacing: 3px;
+        margin-top:60px;
+    }
+    header h2{
+        font-size: 40px;
+        letter-spacing: 3px;
+        margin-top:60px;
+    }
+
